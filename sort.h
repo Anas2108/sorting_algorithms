@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+void print_array(const int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 void swap(int *num1, int *num2);
 void insertion_sort_list(listint_t **list);
